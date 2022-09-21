@@ -1,0 +1,41 @@
+/* **************** Universal selector ****************  */
+/* *{
+    color:red
+} */
+
+/* **************** Type selector ****************  */
+/* h1,p,h4{
+    color: orange;
+} */
+
+/* **************** Class selector ****************  */
+
+/* h1.my-heading{
+    color: pink;
+} */
+/* **************** ID selector ****************  */
+/* #my-heading{
+    color: purple;
+} */
+/* **************** Child selector ****************  */
+/* 
+div>h1{
+    color: red;
+} */
+
+/* **************** Descendant selector ****************  */
+
+/* div h1{
+    color: blue;
+} */
+
+/* **************** Adjacent Siblings selector ****************  */
+/* 
+h1+h4{
+    color: aqua;
+} */
+/* **************** General Siblings selector ****************  */
+
+h1~h4{
+    color: aqua;
+}
